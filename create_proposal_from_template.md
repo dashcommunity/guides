@@ -26,7 +26,7 @@
   6. Play around with editing the populated document, experimenting with the markdown menu features
   7. Choose a themes for your proposal (`minimal` is recommended)
   8. Review, make changes if desired by clicking **edit**, and click **Publish** when finished
-  9  Note the message above ("Your project page has been created at...")
+  9.  Note the message above ("Your project page has been created at...")
   10. Open a browser and go to the URL Github made for you
 
 ##### 4. Edit your proposal
