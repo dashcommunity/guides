@@ -3,7 +3,7 @@
 This guide will step you through submitting a proposal ([optionally created here at Dash Community](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md)) to the dash network.
 
 ##### Context
-Like most core functions in dash (e.g. transactions, etc), proposals are submitted to the network using the `dash-cli` program, dash's command line interface.  This program is built into the debug console of the dash-Qt wallet.  That is the most accessible place to run the program.  If you have [set up dash masternode](link) using your own [hosted VPS](link), `dash-cli` is also available on your server.  
+Like most core functions in dash (e.g. transactions, etc), proposals are submitted to the network using the `dash-cli` program, dash's command line interface.  This program is built into the debug console of the dash-Qt wallet.  That is the most accessible place to run the program.  If you have [set up dash masternode](https://github.com/dashcommunity/guides/blob/master/set_up_masternode.md) using your own [hosted VPS](https://github.com/dashcommunity/guides/blob/master/set_up_virtual_private_sever.md), `dash-cli` is also available on your server.  
 
 This guide assumes you are submitting a proposal using your Dash-Qt wallet's console.  You can, however do this from your server by: 
 1. prepending each command with `./dash-cli`
