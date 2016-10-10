@@ -17,8 +17,7 @@ The command for submitting a proposal (from Dash-Qt) takes the form:
 All of the `<items-in-brackets>` are place holders for information you provide.  This guide works in tandem with the [guide at dashcentral.org](https://www.dashcentral.org/budget/create) to help you prepare this information and guide you through the submitting process.
 
 ##### Required Information
-
-Table 1 shows the arguments/informaiton required to submit a proposal.  eview the [guide at dashcentral.org](https://www.dashcentral.org/budget/create)
+Table 1 shows the arguments/informaiton required to submit a proposal.
 
 ##### Table 1 - Required Arguments
 
@@ -36,8 +35,17 @@ Table 1 shows the arguments/informaiton required to submit a proposal.  eview th
 
 1. Create your proposal
     * You may [create and host your proposal](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md) here at Dash Community, idealy using one of the [templates](https://github.com/dashcommunity/proposal-templates), or
-    * You may use the templates and method show on step 1 at [dashcentral.org](https://www.dashcentral.org/budget/create).
-2. Continue...
-8. Open Dash-Qt
-9. Type command x to prepare your budget
-10. Type command y to submit your budget
+    * You may use the templates and method show on step 1 at [dashcentral.org](https://www.dashcentral.org/budget/create)
+2. Complete steps 2 through 7 at [dashcentral.org](https://www.dashcentral.org/budget/create)
+3. Open your Dash-Qt wallet
+4. Select `Tools` > `Debug console` from the Dash-Qt main menu
+5. Paste the command shown on step 8 from dashcentral; before hitting enter, note that: 
+  * this will charge you 5 DASH
+  * it doesn't actually submit your budget
+  * it prepares and returns a receipt that you have paid the submission fee
+  * the receipt is a transaction id called `fee-tx`, which is used in the actual `mnsubmit` command
+6. Hit enter to prepare your proposal
+7. Paste the command showin on step 9 from dashcentral, where `REPLACE_WITH_COLLATERAL_HASH` (same as `fee-tx`) is the string of characters output by the previous command
+8. Hit enter to submit your proposal
+9. Continue with steps 10 through 13 at dashcentral
+  * One option for step 12 would be to include the Overview section on dashcentral, and then include a link to your full proposal hosted here at Dash Commmunity. 
