@@ -14,7 +14,7 @@ The command for submitting a proposal (from Dash-Qt) takes the form:
 
 `mnbudget submit <proposal-name> <url> <payment-count> <block-start> <dash-address> <monthly-payment-dash> <fee-tx>`
 
-All of the `<items-in-brackets>` are place holders for information you provide.  This guide works in tandem with the [guide at dashcentral.org](https://www.dashcentral.org/budget/create) to help you prepare this information for use in preparing and submitting your proposal. 
+All of the `<items-in-brackets>` are place holders for information you provide.  This guide works in tandem with the [guide at dashcentral.org](https://www.dashcentral.org/budget/create) to help you prepare and submit your proposal.
 
 ##### Required Information
 The following table shows the arguments/informaiton required to submit a proposal.
@@ -41,10 +41,10 @@ The following table shows the arguments/informaiton required to submit a proposa
 5. Paste the command shown on step 8 from dashcentral; before hitting enter, note that: 
   * this will charge you 5 DASH
   * it doesn't actually submit your budget
-  * it prepares and returns a receipt that you have paid the submission fee
-  * the receipt is a transaction id called `fee-tx`, which is used in the actual `mnsubmit` command
+  * it prepares the budget, i.e. it returns a receipt that you have paid the submission fee
+  * the receipt is a transaction id called `fee-tx`, which is used later when you run `mnbudget submit`
 6. Hit enter to prepare your proposal
-7. Paste the command showin on step 9 from dashcentral, where `REPLACE_WITH_COLLATERAL_HASH` (same as `fee-tx`) is the string of characters output by the previous command
+7. Paste the command shown on step 9 from dashcentral, where `REPLACE_WITH_COLLATERAL_HASH` (same as `fee-tx`) is the string of characters output by the previous command
 8. Hit enter to submit your proposal
 9. Continue with steps 10 through 13 at dashcentral
-  * One option for step 12 would be to include the Overview section on dashcentral, and then include a link to your full proposal hosted here at Dash Commmunity. 
+  * One option for step 12 would be to include the Overview section on dashcentral, and then include a link to your full proposal hosted here at Dash Commmunity
