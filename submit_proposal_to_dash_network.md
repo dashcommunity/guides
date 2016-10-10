@@ -36,7 +36,7 @@ Table 1 shows the arguments/informaiton required to submit a proposal.
 1. Create your proposal
     * You may [create and host your proposal](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md) here at Dash Community, idealy using one of the [templates](https://github.com/dashcommunity/proposal-templates), or
     * You may use the templates and method show on step 1 at [dashcentral.org](https://www.dashcentral.org/budget/create)
-2. Complete steps 2 through 7 at [dashcentral.org](https://www.dashcentral.org/budget/create)
+2. Complete steps 2 through 7 at dashcentral
 3. Open your Dash-Qt wallet
 4. Select `Tools` > `Debug console` from the Dash-Qt main menu
 5. Paste the command shown on step 8 from dashcentral; before hitting enter, note that: 
