@@ -2,17 +2,21 @@
 
 This guide will step you through submitting a proposal ([created here in the Dash Community](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md)) to the dash network.
 
-Dash proposals are submitted to to the network using the dash-cli program, which can be performed either using a shell terminal emulator or using the Dash-Qt wallet console. In order to run the proper commands you will first want to gather the information required by the dash protocol.  The steps below walk you through this process.
+Dash proposals are submitted to the network using the dash-cli (dash's command line interface) program, which can be executed using either a shell terminal emulator (e.g. Terminal on Mac) or using the Dash-Qt wallet console. In order to run the proper commands you will first want to gather the information required by the dash protocol.  The steps below walk you through this process.
 
 ### Gather Required Information
 
+Dash-cli requires the following arguments
+
 ##### Required arguments 
-* proposal-name: a unique label, 20 characters or less
-* url -- a proposer-created webpage or forum post containing detailed proposal information
-* payment-count -- how many cycles the proposal is requesting payment
-* block-start -- the requested start of proposal payments
-* dash-address -- the address to receive proposal payments
-* monthly-payment-dash -- the requested payment amount
+|    `dash-cli` argument   |             Description             |                             Example                             |
+|:------------------------:|:-----------------------------------:|:---------------------------------------------------------------:|
+| `<proposal-name>`        | unique label, 20 characters or less | `dash-community`                                                |
+| `<url>`                  | webpage showing your proposal       | `https://github.com/dashcommunity/proposal-riongull-2016-10-06` |
+| `<payment-count>`        | requested months of payment         | `1`                                                             |
+| `<block-start>`          | requested start of payments         | `564944`                                                        |
+| `<dash-address>`         | address to receive payments         | `XnYHMmpTpS8zYpZmdRxbvvA8RqGLSjXJVg`                            |
+| `<monthly-payment-dash>` | requested payment amount            | `90`                                                            |
 
 
 ### Prepare commands using dashcentral.org
