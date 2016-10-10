@@ -9,14 +9,14 @@ Dash proposals are submitted to the network using the `dash-cli` (dash's command
 `dash-cli` requires the following arguments
 
 ##### Required arguments 
-    `dash-cli` argument   |             Description             |                             Example                             
---------------------------|-------------------------------------|----------------------------------------------------------------
- `<proposal-name>`        | unique label, 20 characters or less | `dash-community`                                                
- `<url>`                  | webpage showing your proposal       | `https://github.com/dashcommunity/proposal-riongull-2016-10-06` 
- `<payment-count>`        | requested months of payment         | `1`                                                             
- `<block-start>`          | requested start of payments         | `564944`                                                        
- `<dash-address>`         | address to receive payments         | `XnYHMmpTpS8zYpZmdRxbvvA8RqGLSjXJVg`                            
- `<monthly-payment-dash>` | requested payment amount            | `90`                                                            
+    `dash-cli` argument   |             Description          |                             Example                             
+--------------------------|----------------------------------|----------------------------------------------------------------
+ `<proposal-name>`        | unique label, 20 characters max  | `dash-community`                                               
+ `<url>`                  | webpage of your proposal         | `https://github.com/dashcommunity/proposal-riongull-2016-10-06`
+ `<payment-count>`        | requested months of payment      | `1`                                                            
+ `<block-start>`          | requested start of payments      | `564944`                                                       
+ `<dash-address>`         | address to receive payments      | `XnYHMmpTpS8zYpZmdRxbvvA8RqGLSjXJVg`                           
+ `<monthly-payment-dash>` | requested payment amount         | `90`                                                           
 
 
 ### Prepare commands using dashcentral.org
