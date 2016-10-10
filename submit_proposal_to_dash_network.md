@@ -14,7 +14,7 @@ The command for submitting a proposal (from Dash-Qt) takes the form:
 
 `mnbudget submit <proposal-name> <url> <payment-count> <block-start> <dash-address> <monthly-payment-dash> <fee-tx>`
 
-All of the `<items-in-brackets>` are place holders for information you provide.  This guide works in tandem with the [guide at dashcentral.org](https://www.dashcentral.org/budget/create) to help you prepare this information and guide you through the submitting process.
+All of the `<items-in-brackets>` are place holders for information you provide.  This guide works in tandem with the [guide at dashcentral.org](https://www.dashcentral.org/budget/create) to help you prepare this information for use in preparing and submitting your proposal. 
 
 ##### Required Information
 The following table shows the arguments/informaiton required to submit a proposal.
