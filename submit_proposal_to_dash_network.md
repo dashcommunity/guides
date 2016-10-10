@@ -17,9 +17,8 @@ The command for submitting a proposal (from Dash-Qt) takes the form:
 All of the `<items-in-brackets>` are place holders for information you provide.  This guide works in tandem with the [guide at dashcentral.org](https://www.dashcentral.org/budget/create) to help you prepare this information and guide you through the submitting process.
 
 ##### Required Information
-Table 1 shows the arguments/informaiton required to submit a proposal.
+The following table shows the arguments/informaiton required to submit a proposal.
 
-##### Table 1 - Required Arguments
 
          Argument         |             Description          |                             Example                             
 --------------------------|----------------------------------|----------------------------------------------------------------
