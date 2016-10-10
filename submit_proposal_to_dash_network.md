@@ -2,20 +2,23 @@
 
 This guide will step you through submitting a proposal ([created here in the Dash Community](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md)) to the dash network.
 
+##### Context
 Like most core functions in dash (e.g. transactions, etc), proposals are submitted to the network using the `dash-cli` program, dash's command line interface.  This program is built into the debug console of the dash-Qt wallet.  That is the most accessible place to run the program.  If you have [set up dash masternode](link) using your own [hosted VPS](link), `dash-cli` is also available on your server.  
 
 This guide assumes you are submitting a proposal using your Dash-Qt wallet's console.  You can, however do this from your server by: 
 1. prepending each command with `./dash-cli`
 2. running the commands below from the directory containing `dash-cli`
 
-The command for submitting a proposal (from Dash-Qt) takes the form: 
+### Submit Command
+The command for submitting a proposal (from Dash-Qt) takes the form:
+
 `mnbudget submit <proposal-name> <url> <payment-count> <block-start> <dash-address> <monthly-payment-dash> <fee-tx>`
 
 All of the `<items-in-brackets>` are place holders for information you provide.  This guide works in tandem with the [guide at dashcentral.org](https://www.dashcentral.org/budget/create) to help you prepare this information and guide you through the submitting process.
 
-### Required Information
+##### Required Information
 
-You will need the following arguments/informaiton to submit a proposal:
+Table 1 shows the arguments/informaiton required to submit a proposal.  eview the [guide at dashcentral.org](https://www.dashcentral.org/budget/create)
 
 ##### Table 1 - Required Arguments
 
@@ -31,7 +34,6 @@ You will need the following arguments/informaiton to submit a proposal:
 
 ### Steps to Submit a Proposal
 
-0. Review the [guide at dashcentral.org](https://www.dashcentral.org/budget/create)
 1. Create your proposal
     * You may [create and host your proposal](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md) here at Dash Community, idealy using one of the [templates](https://github.com/dashcommunity/proposal-templates), or
     * You may use the templates and method show on step 1 at [dashcentral.org](https://www.dashcentral.org/budget/create).
