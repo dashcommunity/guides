@@ -11,14 +11,14 @@
   4. Click **Create repository** button
 
 ##### 2. Scaffold your repository
-  1. Click **create new file**
+  1. Click **Create new file**
   2. Enter "template_original.md" in the `name your file` field (don't forget the `.md`)
   3. Click **Commit new file**
-  4. Click **create new file**
+  4. Click **Create new file**
   5. Enter "proposal.md" in the `name your file` field
   6. Click **Commit new file**
 
-##### 2. Populate your repository
+##### 3. Populate your repository
   1. Go to the [templates repository](https://github.com/dashcommunity/proposal-templates)
   2. Select a template, e.g. [`detailed.md`](https://github.com/dashcommunity/proposal-templates/blob/master/detailed.md)
   3. Click **raw**
