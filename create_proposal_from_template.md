@@ -25,7 +25,7 @@
     * Keep the default *Project name* and *Tagline* text
   6. Play around with editing the populated document, experimenting with the markdown menu features
   7. Click **Continue to layouts**
-  7. Choose a theme for your proposal (`minimal` is recommended)
+  7. Choose a theme for your proposal ([proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06) uses **Hack**; I'm a sucker for dark themes)
   8. Review, make changes if desired by clicking **edit**, and click **Publish** when finished
   9.  Note the message above ("Your project page has been created at...")
   10. Open a browser and go to the URL Github made for you
