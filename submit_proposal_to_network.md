@@ -29,7 +29,7 @@ The following table shows the arguments/informaiton required to submit a proposa
  `<block-start>`          | requested start of payments      | `564944`                                                       
  `<dash-address>`         | address to receive payments      | `XnYHMmpTpS8zYpZmdRxbvvA8RqGLSjXJVg`                           
  `<monthly-payment-dash>` | requested payment amount         | `90`                                                           
- `<fee-tx>`               | ouput from `mnbudget prepare`    | `fjdklfjdskl`
+ `<fee-tx>`               | ouput from `mnbudget prepare`    | `464a0eb70ea91c94295214df48c47baa72b3876cfb658744aaf863c7b5bf1`
 
 ### Steps to Submit a Proposal
 
