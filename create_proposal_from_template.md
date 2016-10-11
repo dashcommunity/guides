@@ -10,12 +10,30 @@
     * *Initialize this repository with a README* box: `checked`
   4. Click **Create repository** button
 
-##### 2. Copy the proposal template text
-  1. Go to a template of your choice, e.g. [`detailed.md`](https://github.com/dashcommunity/proposal-templates/blob/master/detailed.md)
-  2. Click **raw**
-  3. Copy the entire text of the template
+##### 2. Scaffold your repository
+  1. Click **create new file**
+  2. Enter "template_original.md" in the `name your file` field (don't forget the `.md`)
+  3. Click **Commit new file**
+  4. Click **create new file**
+  5. Enter "proposal.md" in the `name your file` field
+  6. Click **Commit new file**
+
+##### 2. Populate your repository
+  1. Go to the [templates repository](https://github.com/dashcommunity/proposal-templates)
+  2. Select a template, e.g. [`detailed.md`](https://github.com/dashcommunity/proposal-templates/blob/master/detailed.md)
+  3. Click **raw**
+  4. Copy the entire text of the template
+  5. Go back to your project repository, e.g. [proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06)
+  6. Click **`template-original.md`** file you created in the last step
+  7. Click the **pencil icon** ("Edit this file" on hover)
+  8. Paste in the contents of your clipboard
+  9. Click **Commit change**
+  10. Return to the root of your repository, e.g. [proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06)
+  11. Redo steps 6 through 10 for the `template.md` file (give it the same contents
+    * `template-original.md` remains unedited in your repo for reference
+    * `template.md` starts out the same as `template-original.md`, but then you edit is as you like
   
-##### 3. Initialize a [Github Project Page](https://help.github.com/articles/creating-pages-with-the-automatic-generator/)
+##### 4. Initialize a [Github Project Page](https://help.github.com/articles/creating-pages-with-the-automatic-generator/)
   1. Go back to your project repository, e.g. [proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06)
   2. Click **Settings**
   3. Scroll down to the *GitHub Pages* module
@@ -30,7 +48,7 @@
   9.  Note the message above ("Your project page has been created at...")
   10. Open a browser and go to the URL Github made for you
 
-##### 4. Edit your proposal
+##### 5. Edit your proposal
   1. Read the templete to get an idea of what goes where in the proposal
   2. Delete the **description** and **example** headings
   3. Modify the remaining text of each section to fit your own proposed project
