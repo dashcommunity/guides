@@ -29,8 +29,8 @@
 8. Paste in the contents of your clipboard
 9. Click **Commit change**
 10. Repeat steps 5 through 9 for the `proposal.md` file (give it the same contents)
-  * `template-original.md` remains unedited in your repo for reference
-  * `template.md` starts out the same as `template.md`, but then you edit is as you like
+  * `template.md` remains unedited in your repo for reference
+  * `proposal.md` starts out the same as `template.md`, but then you edit it
     
 ### Edit your `proposal.md`
 1. Return to your project repository, e.g. [proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06)
