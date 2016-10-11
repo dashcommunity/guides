@@ -12,7 +12,7 @@
 
 ##### 2. Scaffold your repository
   1. Click **Create new file**
-  2. Enter "template_original.md" in the `name your file` field (don't forget the `.md`)
+  2. Enter "template.md" in the `name your file` field (don't forget the `.md`)
   3. Click **Commit new file**
   4. Click **Create new file**
   5. Enter "proposal.md" in the `name your file` field
@@ -24,12 +24,12 @@
   3. Click **raw**
   4. Copy the entire text of the template
   5. Go back to your project repository, e.g. [proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06)
-  6. Click **`template-original.md`** file you created in the last step
+  6. Click **`template.md`** file you created in the last step
   7. Click the **pencil icon** ("Edit this file" on hover)
   8. Paste in the contents of your clipboard
   9. Click **Commit change**
   10. Return to the root of your repository, e.g. [proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06)
-  11. Redo steps 6 through 10 for the `template.md` file (give it the same contents
+  11. Redo steps 6 through 10 for the `proposal.md` file (give it the same contents
     * `template-original.md` remains unedited in your repo for reference
     * `template.md` starts out the same as `template-original.md`, but then you edit is as you like
   
