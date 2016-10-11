@@ -12,10 +12,10 @@
 
 ##### 2. Scaffold your repository
   1. Click **Create new file**
-  2. Enter "template.md" in the `name your file` field (don't forget the `.md`)
+  2. Enter `template.md` in the *name your file* field (don't forget the `.md`)
   3. Click **Commit new file**
   4. Click **Create new file**
-  5. Enter "proposal.md" in the `name your file` field
+  5. Enter `proposal.md` in the *name your file* field
   6. Click **Commit new file**
 
 ##### 3. Populate your repository
