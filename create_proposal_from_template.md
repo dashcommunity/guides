@@ -23,13 +23,12 @@
   2. Select a template, e.g. [`detailed.md`](https://github.com/dashcommunity/proposal-templates/blob/master/detailed.md)
   3. Click **raw**
   4. Copy the entire text of the template
-  5. Go back to your project repository, e.g. [proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06)
+  5. Return to your project repository, e.g. [proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06)
   6. Click **`template.md`** file you created in the last step
   7. Click the **pencil icon** ("Edit this file" on hover)
   8. Paste in the contents of your clipboard
   9. Click **Commit change**
-  10. Return to the root of your repository, e.g. [proposal-riongull-2016-10-06](https://github.com/dashcommunity/proposal-riongull-2016-10-06)
-  11. Redo steps 6 through 10 for the `proposal.md` file (give it the same contents
+  10. Repeat steps 5 through 9 for the `proposal.md` file (give it the same contents)
     * `template-original.md` remains unedited in your repo for reference
     * `template.md` starts out the same as `template-original.md`, but then you edit is as you like
   
