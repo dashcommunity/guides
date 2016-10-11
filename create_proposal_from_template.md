@@ -2,7 +2,7 @@
 
 ##### 1. Create a proposal repository
   1. Sign in to Github and go to [dash community main page](https://github.com/dashcommunity)
-  2. Click **New Repository**
+  2. Click **New repository**
   3. Fill out the form:
     * *Owner*: `dashcommunity`
     * *Repository name*: `proposal-yourusername-YYYY-MM-DD`, e.g. `proposal-riongull-2016-10-06`
