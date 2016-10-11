@@ -24,6 +24,7 @@
     * The content of your clipboard is the sample template you copied in the previous step 
     * Keep the default *Project name* and *Tagline* text
   6. Play around with editing the populated document, experimenting with the markdown menu features
+  7. Click **Continue to layouts**
   7. Choose a theme for your proposal (`minimal` is recommended)
   8. Review, make changes if desired by clicking **edit**, and click **Publish** when finished
   9.  Note the message above ("Your project page has been created at...")
