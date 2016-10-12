@@ -5,8 +5,8 @@
 2. Click **New repository**
 3. Fill out the form:
     * *Owner*: `dashcommunity`
-    * *Repository name*: `proposal-<name-you-will-give-proposal-on-blockchain>`, e.g. `proposal-core-team` (omit `<` and `>`)
-      * Keep consistent with the naming restrictions of blockchain (char. limit: 20, valid char.: A-Z,a-z,0-9,-)
+    * *Repository name*: `proposal-<name-you-will-give-proposal-on-blockchain>`, e.g. `proposal-core-team`
+      * omit `<` and `>` and keep consistent with blockchain naming (char. limit: 20, valid char.: A-Z,a-z,0-9,-)
     * *Description*: `three to ten word summary of project`, e.g. `Salary for core development team` 
     * *Initialize this repository with a README* box: `checked`
 4. Click **Create repository** button
