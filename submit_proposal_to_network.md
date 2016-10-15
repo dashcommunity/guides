@@ -31,7 +31,7 @@ The following table shows the arguments/informaiton required to submit a proposa
  `<monthly-payment-dash>` | requested payment amount         | `90`                                                           
  `<fee-tx>`               | ouput from `mnbudget prepare`    | `464a0eb70ea91c94295214df48c47baa72b3876cfb658744aaf863c7b5bf1`
 
-### Steps to Submit a Proposal
+### Submit your Proposal
 
 1. Create your proposal
     * you may [create and host your proposal](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md) here at Dash Community, idealy using one of the [templates](https://github.com/dashcommunity/proposal-templates), or
@@ -49,3 +49,11 @@ The following table shows the arguments/informaiton required to submit a proposa
 8. Hit enter to submit your proposal
 9. Continue with steps 10 through 13 at dashcentral
   * one option for step 12 would be to include the Overview section on dashcentral, and then include a link to your full proposal hosted here at Dash Commmunity
+  
+### Market your Proposal
+
+1. Post a link to your proposal at:
+  * the dash forum
+  * the dashpay subreddit
+  * slack channels
+2. Answer questions and concerns from community 
