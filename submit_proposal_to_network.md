@@ -53,7 +53,7 @@ The following table shows the arguments/informaiton required to submit a proposa
 ### Market your Proposal
 
 1. Post a link to your proposal at:
-  * the dash forum
-  * the dashpay subreddit
-  * slack channels
+  * [the dash forum](https://www.dash.org/forum/topic/pre-budget-proposal-discussions.93/)
+  * [the dashpay subreddit](https://www.reddit.com/r/dashpay/)
+  * dash slack teams
 2. Answer questions and concerns from community 
