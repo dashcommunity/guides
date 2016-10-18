@@ -45,7 +45,7 @@ The following table shows the arguments/informaiton required to submit a proposa
   * this will charge you 5 DASH
   * it doesn't actually submit your budget
   * it prepares the budget, i.e. it returns a receipt that you have paid the submission fee
-  * the receipt is a transaction id called `fee-tx`, which is used later when you run `mnbudget submit`
+  * the receipt is the transaction hash, which is referred to as `fee-tx` when you run `mnbudget submit` later
 7. Press **Enter** to prepare your proposal
 8. Click **Transactions** in Dash-Qt and wait for the transaction you just created to get 6 confirmations
 9. Paste the command shown on step 9 from dashcentral; before pressing enter, note that:
