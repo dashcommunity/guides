@@ -25,7 +25,7 @@ The following table shows the arguments/informaiton required to submit a proposa
          Argument         |             Description          |                             Example                             
 --------------------------|----------------------------------|----------------------------------------------------------------
  `<proposal-name>`        | unique label, 20 characters max  | `dash-community`                                               
- `<url>`                  | webpage of your proposal         | `https://dashcommunity.github.io/proposal-dash-community/`
+ `<url>`                  | webpage of your proposal         | `www.dashcentral.org/p/dash-community`
  `<payment-count>`        | requested months of payment      | `1`                                                            
  `<block-start>`          | requested start of payments      | `564944`                                                       
  `<dash-address>`         | address to receive payments      | `XsDho2JUS9aeTejQpdi3A19Enih3xmX6ae`                           
