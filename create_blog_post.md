@@ -1,4 +1,4 @@
-# Create A Blog Post
+# Create a Blog Post
 
 ##### About this document
 
