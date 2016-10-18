@@ -33,8 +33,7 @@ The following table shows the arguments/informaiton required to submit a proposa
  `<fee-tx>`               | ouput from `mnbudget prepare`    | `464a0eb70ea91c94295214df48c47baa72b3876cfb658744aaf863c7b5bf1`
 
 ### Create your proposal
-1. Create your proposal
-    * you may [create and host your proposal](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md) here at Dash Community, idealy using one of the [templates](https://github.com/dashcommunity/proposal-templates), or
+1. If you haven't alread, [create your proposal]  (https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md) here at Dash Community, idealy using one of the [templates](https://github.com/dashcommunity/proposal-templates), or
     * you may use the templates and method show on step 1 at [dashcentral.org](https://www.dashcentral.org/budget/create)
 
 ### Submit your proposal
