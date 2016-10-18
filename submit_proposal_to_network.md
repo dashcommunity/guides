@@ -1,5 +1,6 @@
 # Submitting a Proposal to the Dash Network
 
+##### About this document
 This guide will step you through submitting a proposal ([optionally created here at Dash Community](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md)) to the dash network.
 
 ##### Context
