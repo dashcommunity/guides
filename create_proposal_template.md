@@ -1,5 +1,9 @@
-### Creating a proposal template for the community
+# Create a Proposal Template
 
+##### About this document
+This document steps you through the process of making a proposal template (like those in the [proposal repsository](https://github.com/dashcommunity/proposal-templates).  Anyone can then use them for their proposals. 
+
+### Steps for making a proposal template
 1. Make a skeleton of each section to be included
 2. Under each section, put two subsection headings
   1. Description
