@@ -7,7 +7,8 @@ Anyone is welcome to create and host a blog entry here.  Why?  You will get paid
 ### Create Your Entry
 1. Navigate to the [blog repository](https://github.com/dashcommunity/blog)
 2. Click **Create new file**
-3. Name your file something; give it a `.md` file extension
+3. Name your file something
+  * give it a `.md` file extension
   *  `.md` stands for **m**ark**d**own
 3. Compose your entry using [markdown syntax](https://guides.github.com/features/mastering-markdown/)
 4. Click **Commit new file**
