@@ -9,7 +9,7 @@ Anyone is welcome to create and host a blog entry here.  You may get paid, per t
 2. Click **Create new file**
 3. Name your file something
   * give it a `.md` file extension
-  *  `.md` stands for **m**ark**d**own
+  *  `.md` stands for `m`ark`d`own
 3. Compose your entry using [markdown syntax](https://guides.github.com/features/mastering-markdown/)
 4. Click **Commit new file**
 
