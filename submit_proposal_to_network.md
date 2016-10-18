@@ -11,7 +11,7 @@ This guide assumes you are submitting a proposal using your Dash-Qt wallet's con
 1. prepending each command with `./dash-cli`
 2. running the commands below from the directory containing `dash-cli`
 
-### Submit Command
+### `mnbudget submit` Command
 The command for submitting a proposal (from Dash-Qt) takes the form:
 
 `mnbudget submit <proposal-name> <url> <payment-count> <block-start> <dash-address> <monthly-payment-dash> <fee-tx>`
