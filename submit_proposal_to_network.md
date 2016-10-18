@@ -25,11 +25,11 @@ The following table shows the arguments/informaiton required to submit a proposa
          Argument         |             Description          |                             Example                             
 --------------------------|----------------------------------|----------------------------------------------------------------
  `<proposal-name>`        | unique label, 20 characters max  | `dash-community`                                               
- `<url>`                  | webpage of your proposal         | `https://github.com/dashcommunity/proposal-riongull-2016-10-06`
+ `<url>`                  | webpage of your proposal         | `https://dashcommunity.github.io/proposal-dash-community/`
  `<payment-count>`        | requested months of payment      | `1`                                                            
  `<block-start>`          | requested start of payments      | `564944`                                                       
- `<dash-address>`         | address to receive payments      | `XnYHMmpTpS8zYpZmdRxbvvA8RqGLSjXJVg`                           
- `<monthly-payment-dash>` | requested payment amount         | `90`                                                           
+ `<dash-address>`         | address to receive payments      | `XsDho2JUS9aeTejQpdi3A19Enih3xmX6ae`                           
+ `<monthly-payment-dash>` | requested payment amount         | `250`                                                           
  `<fee-tx>`               | ouput from `mnbudget prepare`    | `464a0eb70ea91c94295214df48c47baa72b3876cfb658744aaf863c7b5bf1`
 
 ### Submit your Proposal
