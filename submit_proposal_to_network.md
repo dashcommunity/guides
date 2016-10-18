@@ -39,13 +39,13 @@ The following table shows the arguments/informaiton required to submit a proposa
     * you may use the templates and method show on step 1 at [dashcentral.org](https://www.dashcentral.org/budget/create)
 2. Complete steps 2 through 7 at dashcentral and click **Generate commands for console**
 3. Open your Dash-Qt wallet
-4. Select `Tools` > `Debug console` from the Dash-Qt main menu
+4. Click **Tools** > **Debug console** from the Dash-Qt main menu
 5. Paste the command shown on step 8 from dashcentral; before hitting enter, note that: 
   * this will charge you 5 DASH
   * it doesn't actually submit your budget
   * it prepares the budget, i.e. it returns a receipt that you have paid the submission fee
   * the receipt is a transaction id called `fee-tx`, which is used later when you run `mnbudget submit`
-6. Hit enter to prepare your proposal
+6. Press **enter** to prepare your proposal
 7. Paste the command shown on step 9 from dashcentral, where `REPLACE_WITH_COLLATERAL_HASH` (same as `fee-tx`) is the string of characters output by the previous command
 8. Hit enter to submit your proposal
 9. Continue with steps 10 through 13 at dashcentral
