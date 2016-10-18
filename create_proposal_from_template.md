@@ -1,4 +1,4 @@
-# Create a proposal using a template
+# Create a Proposal Using a Template
 
 ##### About this document
 This guide will step you through the process of creating a proposal using one of the Dash Community [proposal templates](https://github.com/dashcommunity/proposal-templates).  It's easier than it looks.
