@@ -2,7 +2,7 @@
 
 ##### About this document
 
-Anyone is welcome to create and host a blog entry here.  Why?  You will get paid to do so.  Follow the steps below to create and post your entry. 
+Anyone is welcome to create and host a blog entry here.  You may get paid, per this [proposal](https://dashcommunity.github.io/proposal-dash-community/).  Follow the steps below to create and post your entry. 
 
 ### Create Your Entry
 1. Navigate to the [blog repository](https://github.com/dashcommunity/blog)
