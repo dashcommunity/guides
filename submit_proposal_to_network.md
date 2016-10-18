@@ -32,29 +32,31 @@ The following table shows the arguments/informaiton required to submit a proposa
  `<monthly-payment-dash>` | requested payment amount         | `250`                                                           
  `<fee-tx>`               | ouput from `mnbudget prepare`    | `464a0eb70ea91c94295214df48c47baa72b3876cfb658744aaf863c7b5bf1`
 
-### Submit your Proposal
-
+### Create your proposal
 1. Create your proposal
     * you may [create and host your proposal](https://github.com/dashcommunity/guides/blob/master/create_proposal_from_template.md) here at Dash Community, idealy using one of the [templates](https://github.com/dashcommunity/proposal-templates), or
     * you may use the templates and method show on step 1 at [dashcentral.org](https://www.dashcentral.org/budget/create)
-2. Complete steps 2 through 7 at dashcentral and click **Generate commands for console**
-3. Open your Dash-Qt wallet
-4. Click **Settings** > **Unlock wallet** if your wallet is locked
-5. Click **Tools** > **Debug console** from the Dash-Qt main menu
-6. Paste the command shown on step 8 from dashcentral; before pressing enter, note that: 
+
+### Submit your proposal
+
+1. Complete steps 2 through 7 at dashcentral and click **Generate commands for console**
+2. Open your Dash-Qt wallet
+3. Click **Settings** > **Unlock wallet** if your wallet is locked
+4. Click **Tools** > **Debug console** from the Dash-Qt main menu
+5. Paste the command shown on step 8 from dashcentral; before pressing enter, note that: 
   * this will charge you 5 DASH
   * it doesn't actually submit your budget
   * it prepares the budget, i.e. it returns a receipt that you have paid the submission fee
   * the receipt is the transaction hash, which is referred to as `fee-tx` when you run `mnbudget submit` later
-7. Press **Enter** to prepare your proposal
-8. Click **Transactions** in Dash-Qt and wait for the transaction you just created to get 6 confirmations
-9. Paste the command shown on step 9 from dashcentral; before pressing enter, note that:
+6. Press **Enter** to prepare your proposal
+7. Click **Transactions** in Dash-Qt and wait for the transaction you just created to get 6 confirmations
+8. Paste the command shown on step 9 from dashcentral; before pressing enter, note that:
   * you must replace `REPLACE_WITH_COLLATERAL_HASH` (same as `fee-tx`) with the string of characters output by the previous command
-10. Press **Enter** to submit your proposal
-11. Continue with steps 10 through 13 at dashcentral
+9. Press **Enter** to submit your proposal
+10. Continue with steps 10 through 13 at dashcentral
   * one option for step 12 would be to include the Overview section on dashcentral, and then include a link to your full proposal hosted here at Dash Commmunity
   
-### Market your Proposal
+### Market your proposal
 
 1. Post a link to your proposal at:
   * [the dash forum](https://www.dash.org/forum/topic/pre-budget-proposal-discussions.93/)
