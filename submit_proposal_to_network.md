@@ -40,16 +40,18 @@ The following table shows the arguments/informaiton required to submit a proposa
 2. Complete steps 2 through 7 at dashcentral and click **Generate commands for console**
 3. Open your Dash-Qt wallet
 4. Click **Settings** > **Unlock wallet** if your wallet is locked
-4. Click **Tools** > **Debug console** from the Dash-Qt main menu
-5. Paste the command shown on step 8 from dashcentral; before hitting enter, note that: 
+5. Click **Tools** > **Debug console** from the Dash-Qt main menu
+6. Paste the command shown on step 8 from dashcentral; before pressing enter, note that: 
   * this will charge you 5 DASH
   * it doesn't actually submit your budget
   * it prepares the budget, i.e. it returns a receipt that you have paid the submission fee
   * the receipt is a transaction id called `fee-tx`, which is used later when you run `mnbudget submit`
-6. Press **enter** to prepare your proposal
-7. Paste the command shown on step 9 from dashcentral, where `REPLACE_WITH_COLLATERAL_HASH` (same as `fee-tx`) is the string of characters output by the previous command
-8. Hit enter to submit your proposal
-9. Continue with steps 10 through 13 at dashcentral
+7. Press **enter** to prepare your proposal
+8. Click **Transactions** in Dash-Qt and wait for the transaction you just created to get 6 confirmations
+9. Paste the command shown on step 9 from dashcentral; before pressing enter, note that:
+  * you must replace `REPLACE_WITH_COLLATERAL_HASH` (same as `fee-tx`) with the string of characters output by the previous command
+10. Press **enter** to submit your proposal
+11. Continue with steps 10 through 13 at dashcentral
   * one option for step 12 would be to include the Overview section on dashcentral, and then include a link to your full proposal hosted here at Dash Commmunity
   
 ### Market your Proposal
