@@ -29,7 +29,7 @@ After you've completed the **Create Your Entry** steps above, you are taken to t
 2. Add a `description` and `comment` if you wish (optional)
 3. Click **Create pull request** (again)
 
-You're done.  Now you just wait for the request to be merged by an organization owner.  You may return to this page at any time and click **Close pull request**, which basically cancels or undoes the request.  You may also comment on this pull request by filling out the `Leave a comment box` and clicking **Comment**. 
+You're done.  Now you just wait for the request to be merged by an organization *owner*.  You may return to this page at any time and click **Close pull request**, which basically cancels/undoes the request.  You may also comment on this pull request by filling out the `Leave a comment` box, and clicking **Comment**. 
 
 ### Share Your Entry
 After your entry has been merged in you can now share the link to your entry.
