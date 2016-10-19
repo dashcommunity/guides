@@ -26,7 +26,7 @@ Until we work out a better solution (e.g. creating a blogging team, etc) this wi
 After you've completed the **Create Your Entry** steps above, you are taken to the **Comparing changes** page.  This looks scary if you aren't familiar with git and GitHub, but basically what you did in the previous steps was you created a repository on your own account that was forked from the dashcommunity organization.  So far, your post is privately hosted on your own account, but you now are being asked if you'd like to request that your private post be merged (or pulled) into the `dashcommunity` repository.  In other words, you are going to **open a pull request**.  These steps are shown below.
 
 1. Click **Create pull request**
-2. You may optionally a `description` and `comment`
+2. Add a `description` and `comment` if you wish (optional)
 3. Click **Create pull request** (again)
 
 You're done.  Now you just wait for the request to be merged by an organization owner.  You may return to this page at any time and click **Close pull request**, which basically cancels or undoes the request.  You may also comment on this pull request by filling out the `Leave a comment box` and clicking **Comment**. 
