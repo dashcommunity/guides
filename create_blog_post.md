@@ -9,8 +9,10 @@ Anyone is welcome to create and host a blog entry here.  You may get paid, per t
 
 ### Create Your Entry
 Since you are likely not a `dashcommunity/blog` *owner* after step 2 below you will see a message stating:
+
 > You're creating a file in a project you don't have write accesss to.  We've created a fork of the project for you to commit your proposed changes to.  Submitting a change will create the file in a new branch in your fork, so you can send a pull request.
-Until we work out a better solution (e.g. creating a blogging team, etc) this will be the default permission level, and the process will require the `Prepare a Pull Request` steps below. 
+
+Until we work out a better solution (e.g. creating a blogging team, etc) this will be the default permission level, and the process will require the **Prepare a Pull Request** steps below. 
 
 1. Navigate to the [blog repository](https://github.com/dashcommunity/blog)
 2. Click **Create new file**
@@ -21,7 +23,7 @@ Until we work out a better solution (e.g. creating a blogging team, etc) this wi
 5. Click **Propose new file**
 
 ### Prepare a Pull Request
-After you've completed the `Create Your Entry` steps above, you are taken to the **Comparing changes** page.  This looks scary if you aren't familiar with git and GitHub, but basically what you did in the previous steps was you created a repository on your own account that was forked from the dashcommunity organization.  So far, your post is privately hosted on your own account, but you now are being asked if you'd like to request that your private post be merged (or pulled) into the `dashcommunity` repository.  In other words, you are going to **open a pull request**.  These steps are shown below.
+After you've completed the **Create Your Entry** steps above, you are taken to the **Comparing changes** page.  This looks scary if you aren't familiar with git and GitHub, but basically what you did in the previous steps was you created a repository on your own account that was forked from the dashcommunity organization.  So far, your post is privately hosted on your own account, but you now are being asked if you'd like to request that your private post be merged (or pulled) into the `dashcommunity` repository.  In other words, you are going to **open a pull request**.  These steps are shown below.
 
 1. Click **Create pull request**
 2. You may optionally a `description` and `comment`
