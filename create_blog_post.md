@@ -14,7 +14,7 @@ Since you are likely not a `dashcommunity/blog` *owner* after step 2 below you w
 
 Until we work out a better solution (e.g. creating a blogging team, etc) this will be the default permission level, and the process will require the **Prepare a Pull Request** steps below. 
 
-1. Navigate to the [blog repository](https://github.com/dashcommunity/blog)
+1. Navigate to the [articles directory of the blog repository](https://github.com/riongull/blog/tree/master/pages/articles)
 2. Click **Create new file**
 3. Name your file something
   * give it a `.md` file extension
@@ -39,5 +39,5 @@ After your entry has been merged in you can now share the link to your entry.
 2. Click on your newly created file
 3. Click **Copy path**
 4. Share on in your favorite forums (e.g. Slack, Dash Forum, etc)
-  *  the blog [landing page](stillneedstobecreated) will be updated with your entry when a repository admin adds it (which is a manual process for now)
+  *  the [blog landing page](https://dashcommunity.github.io/blog/) will be updated with your entry when a repository admin adds it (which is a manual process for now)
  
