@@ -100,8 +100,8 @@ While we are waiting for the needed 6 confirmations of our 1000 DASH transaction
   ```sh
   VPS$ su <dash-user> # whatever user you want; <dash-user> if you created it above
   VPS$ cd ~
-  VPS$ wget https://www.dash.org/binaries/dash-0.12.0.58-linux64.tar.gz
-  VPS$ tar xfvz dash-0.12.0.58-linux64.tar.gz # unpack files
+  VPS$ wget https://www.dash.org/binaries/dashcore-0.12.1.5-linux64.tar.gz
+  VPS$ tar xfvz dash-0.12.1.5-linux64.tar.gz # unpack files
   VPS$ cp dash-0.12.0/bin/dashd dashd
   VPS$ cp dash-0.12.0/bin/dash-cli dash-cli
   VPS$ chmod 755 dashd # set permissions
