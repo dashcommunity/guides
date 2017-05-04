@@ -118,14 +118,15 @@ While we are waiting for the needed 6 confirmations of our 1000 DASH transaction
   < # start of file contents
   rpcuser=<anything-like-random-numbers-and-letters>
   rpcpassword=<anything-like-random-numbers-and-letters>
+  rpcport=9998
   rpcallowip=127.0.0.1
   listen=1
   server=1
   daemon=1
-  logtimestamps=1
-  maxconnections=256
+  maxconnections=24
   masternode=1
   masternodeprivkey=<masternode-privkey>
+  externalip=<ip.add.re.ss>
   > # end of file contents, ctrl+x to exit, save as "dash.conf"
   ```
 5. Launch dashd on your VPS
