@@ -28,30 +28,15 @@ The following steps will help you [install a dash wallet on your Mac OS X](https
 9. Note the status of the network sync shown at the bottom; this may take hours to complete but you can move on
 10. While syncing, and before depositing any dash, [encrypt your wallet](https://www.youtube.com/watch?v=PcnAvExGLJs&index=8&list=PLiFMZOlhgsYLWcmb-MT6x7cIxb01OoJTB) and [back it up](https://node40.com/2016/03/30/how-to-backing-up-your-dash-public-key-by-dumping-the-corresponding-private-key.html)
 
-## 2. If necessary, move `dashd` to the proper folder
-Some older Dash-Qt installations saved `dashd` in the "downloads" folder. If you already had Dash-Qt installed, double check to make sure it is in the proper place, as follows:
-
-1. Quit Dash-Qt (`command` + `q` when client is active window)
-2. Open the terminal utility (`command` + `spacebar`, then type 'terminal')
-3. Run the following commands:
-
-  ```sh
-  Local$ cd ~/Library/Application\ Support/Dash
-  Local$ ls -la
-  # if you don't see a file called dashd, run the following commands
-  Local$ cd ~/Downloads
-  Local$ mv dashd ~/Library/Application\ Support/Dash
-  ```
-
-## 3. Create and secure a Linux VPS
-This step (done properly) requires a lot of steps, so there is a link below to a separate guide for this step.  Once complete, come back to this guide and continue on with step 4.  
+## 2. Create and secure a Linux VPS
+This step (done properly) requires a lot of steps, so there is a link below to a separate guide for this step.  Once complete, come back to this guide and continue on with step 3.  
 
 1. Create and secure a virtual private server (VPS) to host your masternode
   * You may use your own hardware, or any 3rd party hosting service you like (e.g. AWS, Digital Ocean, Vultr, etc)
   * This [comprehensive VPS setup guide](https://github.com/riongull/notes/blob/master/virtual_private_server_setup.md) walks you through this process, using [Vultr](http://www.vultr.com/?ref=6971315-3B) as your VPS host
   * Your machine should have sufficient storage, bandwidth, and RAM, and be properly configured (ssh, ports, etc)
 
-## 4. Create your masternode key & address
+## 3. Create your masternode key & address
 1. Open Dash-Qt
 2. Get a new masternode private key and address
   * Menu: Tools > Debug console
@@ -66,7 +51,7 @@ This step (done properly) requires a lot of steps, so there is a link below to a
 3. Copy and label the two outputted strings of characters in the notes page you created for your IP address
   * These will be referred to as \<masternode-privkey> and \<zero-address> in later steps
 
-## 5. Fund your newly created address with 1000 DASH
+## 4. Fund your newly created address with 1000 DASH
 You may fund your masternode address by sending dash from any wallet (e.g. Jaxx, Electrum, Poloniex, etc).  These steps assume you are funding from Dash-Qt itself.  Either way, the wallet you are sourcing funds from must have 1000 DASH plus a little extra (~0.01 DASH) to cover the dash network fee.
 
 1. Open the 'Receiving addresses' dialog box (file > Receiving addresses)
@@ -83,7 +68,7 @@ You may fund your masternode address by sending dash from any wallet (e.g. Jaxx,
 6. Click 'Send' to fund your masternode (you may use/check InstantSend for this)
 7. Click 'Transactions' in the main Dash-Qt window.  Your transaction should show "Darksend collateral payment"
 
-## 6. Prepare your remote VPS
+## 5. Prepare your remote VPS
 While we are waiting for the needed 6 confirmations of our 1000 DASH transaction, we can now prepare the remote server.
 
 1. Log in to your VPS
@@ -155,7 +140,7 @@ While we are waiting for the needed 6 confirmations of our 1000 DASH transaction
   * You can check if the number of blocks is up to the current height by comparing to the current number of blocks reported on one of the many Dash blockchain explorers (several are listed on the dash.org website)
   * You don't need to wait for the blocks to completely sync; we may move on to the next step
 
-## 7. Remove unnecessary files & folders from your VPS
+## 6. Remove unnecessary files & folders from your VPS
 We are done with the installation files and folders, so those can be removed.
 
 1. Remove files as follows:
@@ -168,7 +153,7 @@ We are done with the installation files and folders, so those can be removed.
   VPS$ exit # repeat to exit all the way out of VPS (into your local machine)
   ```
 
-## 8. Create `dash.conf` & `masternode.conf` files on your *local* machine
+## 7. Create `dash.conf` & `masternode.conf` files on your *local* machine
 1. Close Dash-Qt if open (command+Q to quit the program, not just close the windows)
 2. Open (or switch back to) terminal
 3. Create `dash.conf` file
@@ -226,7 +211,7 @@ We are done with the installation files and folders, so those can be removed.
   * You may add as many masternodes to the same wallet and `masternode.conf` as you wish
 6. Close Dash-Qt
 
-## 9. Start your masternode(s)
+## 8. Start your masternode(s)
 1. Launch Dash-Qt
   * This will now use the new settings from `dash.conf` and `masternode.conf`
 2. Open a Dash-Qt console session (Tools > Debug console)
