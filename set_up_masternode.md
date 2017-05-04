@@ -154,47 +154,17 @@ We are done with the installation files and folders, so those can be removed.
   VPS$ exit # repeat to exit all the way out of VPS (into your local machine)
   ```
 
-## 7. Create `dash.conf` & `masternode.conf` files on your *local* machine
-1. Close Dash-Qt if open (command+Q to quit the program, not just close the windows)
-2. Open (or switch back to) terminal
-3. Create `dash.conf` file
+## 7. Create `masternode.conf` files on your *local* machine
 
-  ```sh
-  Local$ cd ~/Library/Application\ Support/Dash
-  Local$ nano dash.conf # this should bring up a GNU session that is blank (unless you already had a conf file created). In any case, make sure it has the following text.
-  < # start of file contents
-  rpcuser=<anything-like-random-numbers-and-letters-probably-safer-to-use-something-different-than-the-last-one>
-  rpcpassword=<anything-like-random-numbers-and-letters-probably-safer-to-use-something-different-than-the-last-one>
-  rpcallowip=127.0.0.1
-  listen=0
-  server=1
-  daemon=1
-  logtimestamps=1
-  maxconnections=8
-  > # end of file contents, ctrl+x to exit, save as "dash.conf"
-  ```
-
-4. Obtain data for `masternode.conf`
-  1. Easy Method:
-    1. Open Dash-Qt
-    2. From the menu: Tools > Debug Console, then type the command:
+1. Obtain data for `masternode.conf`
+  1. Open Dash-Qt
+  2. From the menu: Tools > Debug Console, then type the command:
 
     ```sh
     Dash$ masternode outputs # values are listed as "hash":"index", copy them into your notes
     ```
-
-  2. Alternate Method:
-    1. Open Dash-Qt
-    2. From the menu: File > Receiving addresses
-    3. Clck on your masternode addresses and click copy
-    4. Go to a dash block explorer, e.g. [chainz](https://chainz.cryptoid.info/dash/),
-    5. Paste the masternode receiving address (into which you deposited your 1000 DASH) in the search bar
-    6. Click on the "hash" of the 1000 DASH transaction
-    7. Copy the value for that hash and paste it into your notes document
-    8. Find the transaction listed under "outputs"
-    9. Locate the index number of your unspent 1000 DASH (0 or 1), copy it into your notes
-
-5. Create `masternode.conf`
+    
+2. Create `masternode.conf`
 
   ```sh
   Local$ cd ~/Library/Application\ Support/Dash
@@ -210,7 +180,7 @@ We are done with the installation files and folders, so those can be removed.
   ```
   * You will need a separate line for each masternode in `masternode.conf`
   * You may add as many masternodes to the same wallet and `masternode.conf` as you wish
-6. Close Dash-Qt
+3. Close Dash-Qt
 
 ## 8. Start your masternode(s)
 1. Launch Dash-Qt
