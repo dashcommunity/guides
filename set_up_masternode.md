@@ -55,7 +55,7 @@ This step (done properly) requires a lot of steps, so there is a link below to a
 You may fund your masternode address by sending dash from any wallet (e.g. Jaxx, Electrum, Poloniex, etc).  These steps assume you are funding from Dash-Qt itself.  Either way, the wallet you are sourcing funds from must have 1000 DASH plus a little extra (~0.01 DASH) to cover the dash network fee.
 
 1. Open the 'Receiving addresses' dialog box (file > Receiving addresses)
-2. Click the Receiving address you made in step 4 (e.g. "MN01") and click the 'copy' button
+2. Click the Receiving address you made in step 3 (e.g. "MN01") and click the 'copy' button
 3. Click the Send tab on the main Dash-Qt window (or your wallet of choice)
 4. Paste the address you copied on the 'Pay To' field, it should populate your label
 5. Enter '1000' in the 'Amount' field
