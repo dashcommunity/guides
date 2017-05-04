@@ -49,7 +49,7 @@ This step (done properly) requires a lot of steps, so there is a link below to a
   # Dash will output the result
   ```
 3. Copy and label the two outputted strings of characters in the notes page you created for your IP address
-  * These will be referred to as \<masternode-privkey> and \<zero-address> in later steps
+  * These will be referred to as \<masternode-privkey> and \<masternode-address> in later steps
 
 ## 4. Fund your newly created address with 1000 DASH
 You may fund your masternode address by sending dash from any wallet (e.g. Jaxx, Electrum, Poloniex, etc).  These steps assume you are funding from Dash-Qt itself.  Either way, the wallet you are sourcing funds from must have 1000 DASH plus a little extra (~0.01 DASH) to cover the dash network fee.
