@@ -101,9 +101,9 @@ While we are waiting for the needed 6 confirmations of our 1000 DASH transaction
   VPS$ su <dash-user> # whatever user you want; <dash-user> if you created it above
   VPS$ cd ~
   VPS$ wget https://www.dash.org/binaries/dashcore-0.12.1.5-linux64.tar.gz
-  VPS$ tar xfvz dash-0.12.1.5-linux64.tar.gz # unpack files
-  VPS$ cp dash-0.12.0/bin/dashd dashd
-  VPS$ cp dash-0.12.0/bin/dash-cli dash-cli
+  VPS$ tar xfvz dashcore-0.12.1.5-linux64.tar.gz # unpack files
+  VPS$ cp dashcore-0.12.1/bin/dashd dashd
+  VPS$ cp dashcore-0.12.1/bin/dash-cli dash-cli
   VPS$ chmod 755 dashd # set permissions
   ```
 4. Create `dash.conf` file on your VPS
