@@ -110,8 +110,8 @@ While we are waiting for the needed 6 confirmations of our 1000 DASH transaction
 
   ```sh
   VPS$ cd ~
-  VPS$ mkdir .dash
-  VPS$ cd .dash
+  VPS$ mkdir .dashcore
+  VPS$ cd .dashcore
   VPS$ nano dash.conf
   # once open, insert the following text.  Note: rpcuser and rpcpassword can be anything, you will not have to remember them later, feel free to go nuts on your keyboard
 
