@@ -66,7 +66,7 @@ You may fund your masternode address by sending dash from any wallet (e.g. Jaxx,
   * No, you may not put in 1 DASH first and then 999 DASH. It must be all at once. You may test the address first, but you will still need to send 1000 DASH later, all in one transaction
   * No, even if you have 1000 DASH in the wallet already, that doesn't count. You must send 1000 DASH to your `<masternodeLabel>` address
 6. Click 'Send' to fund your masternode (you may use/check InstantSend for this)
-7. Click 'Transactions' in the main Dash-Qt window.  Your transaction should show "Darksend collateral payment"
+7. Click 'Transactions' in the main Dash-Qt window.  Your transaction should show "Payment to yourself"
 
 ## 5. Prepare your remote VPS
 While we are waiting for the needed 6 confirmations of our 1000 DASH transaction, we can now prepare the remote server.
