@@ -257,7 +257,7 @@ Dash$ masternode start-alias <alias>
 Dash$ walletlock # to lock your wallet back up
 ```
 
-## 10.  Create Cron Job
+## 10.  Create cron job & test setup
 Your masternode is set up and sentinel is installed.  Now you just need to configure Sentinel to periodically run to keep your masternode alive, proving to the network that you are performing your job as required.
 1. Test Sentinel again
 ```sh
