@@ -166,7 +166,7 @@ We are done with the installation files, so those can be removed.
 2. Create `masternode.conf`
 
   ```sh
-  Local$ cd ~/Library/Application\ Support/Dash
+  Local$ cd ~/Library/Application\ Support/Dashcore
   Local$ nano masternode.conf
   # this file may already exist
   # if it does not nano will create it
@@ -218,8 +218,7 @@ If you see "dashd not synced with network! Awaiting full sync before running Sen
 ```
 
 ## 9. Start your masternode(s)
-1. Launch DashCore
-  * This will now use the new settings from `dash.conf` and `masternode.conf`
+1. Launch DashCore (this will use the new `masternode.conf` settings from step 7)
 2. Open a DashCore console session (Tools > Debug console)
 3. Enter the following to activate your remote masternode
 
@@ -250,7 +249,7 @@ If you see "dashd not synced with network! Awaiting full sync before running Sen
 
 If you still don't see "ENABLED" check your settings from your local DashCore wallet
 ```sh
-Dash$ masternode list-conf # to see your masternode alias(es)
+Dash$ masternode list-conf # to see your masternode alias(es), make sure all settings are correct (see step 7)
 Dash$ walletpassphrase <yourwalletpassphrase> 120
 Dash$ masternode start-alias <alias>
 Dash$ walletlock # to lock your wallet back up
