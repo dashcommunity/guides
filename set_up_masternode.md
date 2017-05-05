@@ -224,7 +224,7 @@ If you see "dashd not synced with network! Awaiting full sync before running Sen
 3. Enter the following to activate your remote masternode
 
     ```sh
-    Dash$ walletpassphrase <your-wallet-passphrase> 120 # alternatively, Tools > Unlock wallet.  Password is the same you created to encrypt your wallet, also used when spending Dash.
+    Dash$ walletpassphrase <your-wallet-passphrase> 120 # alternatively, Settings > Unlock Wallet.  Password is the same you created to encrypt your wallet, also used when spending Dash.
     Dash$ masternode start-alias <alias-of-masternode-you-want-to-start>
     ```
   * You should get a response similar to:
