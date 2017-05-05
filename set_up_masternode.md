@@ -12,16 +12,16 @@ This guide will walk you through the process of setting up a [dash masternode](h
   * This guide uses the command prompts below to indicate which machine you are running commands on:
   * `Local$ sample command ` - run on your __local Mac OS X__ terminal
   * `VPS$ sample command` - run on your __remote virtual private server's__ terminal
-  * `Dash$ sample command` - run on your __local Dash-Qt's__ console
+  * `Dash$ sample command` - run on your __local DashCore's__ console
 
-## 1. Download & install Dash-Qt & prepare your wallet
+## 1. Download & install DashCore & prepare your wallet
 The following steps will help you [install a dash wallet on your Mac OS X](https://node40.com/2016/02/26/how-to-install-and-secure-the-dash-qt-(core)-wallet.html).  Although it is a bit dated, [this video](https://www.youtube.com/watch?v=hCGZPN0Sb84&index=3&list=PLiFMZOlhgsYLWcmb-MT6x7cIxb01OoJTB) may help as well.
 
 1. From a browser on your Mac, go to https://www.dash.org/downloads
-2. Find and click the Dash Core, Mac OS X dmg download link
+2. Find and click the DashCore, Mac OS X dmg download link
 3. Click the downloaded dmg file to open up its contents
-4. Drag the Dash-Qt.app file into the Applications folder
-5. Open the Applications folder and press control while clicking Dash-Qt
+4. Drag the DashCore.app file into the Applications folder
+5. Open the Applications folder and press control while clicking DashCore
 6. From the menu shown, click 'Open', then confirm by clicking 'Open' again
 7. Press 'OK' to install the app into the default directory
 8. Select 'Deny' or 'Allow' depending on your preference
@@ -37,7 +37,7 @@ This step (done properly) requires a lot of steps, so there is a link below to a
   * Your machine should have sufficient storage, bandwidth, and RAM, and be properly configured (ssh, ports, etc)
 
 ## 3. Create your masternode key & address
-1. Open Dash-Qt
+1. Open DashCore
 2. Get a new masternode private key and address
   * Menu: Tools > Debug console
   * A new window should appear with the "Console" tab selected at the top
@@ -52,11 +52,11 @@ This step (done properly) requires a lot of steps, so there is a link below to a
   * These will be referred to as \<masternode-privkey> and \<masternode-address> in later steps
 
 ## 4. Fund your newly created address with 1000 DASH
-You may fund your masternode address by sending dash from any wallet (e.g. Jaxx, Electrum, Poloniex, etc).  These steps assume you are funding from Dash-Qt itself.  Either way, the wallet you are sourcing funds from must have 1000 DASH plus a little extra (~0.01 DASH) to cover the dash network fee.
+You may fund your masternode address by sending dash from any wallet (e.g. Jaxx, Electrum, Poloniex, etc).  These steps assume you are funding from DashCore itself.  Either way, the wallet you are sourcing funds from must have 1000 DASH plus a little extra (~0.01 DASH) to cover the dash network fee.
 
 1. Open the 'Receiving addresses' dialog box (file > Receiving addresses)
 2. Click the Receiving address you made in step 3 (e.g. "MN01") and click the 'copy' button
-3. Click the Send tab on the main Dash-Qt window (or your wallet of choice)
+3. Click the Send tab on the main DashCore window (or your wallet of choice)
 4. Paste the address you copied on the 'Pay To' field, it should populate your label
 5. Enter '1000' in the 'Amount' field
   * Don't include any miner fee in this amount; the wallet will automatically cover it
@@ -66,7 +66,7 @@ You may fund your masternode address by sending dash from any wallet (e.g. Jaxx,
   * No, you may not put in 1 DASH first and then 999 DASH. It must be all at once. You may test the address first, but you will still need to send 1000 DASH later, all in one transaction
   * No, even if you have 1000 DASH in the wallet already, that doesn't count. You must send 1000 DASH to your `<masternodeLabel>` address
 6. Click 'Send' to fund your masternode (you may use/check InstantSend for this)
-7. Click 'Transactions' in the main Dash-Qt window.  Your transaction should show "Payment to yourself"
+7. Click 'Transactions' in the main DashCore window.  Your transaction should show "Payment to yourself"
 
 ## 5. Prepare your remote VPS
 While we are waiting for the needed 6 confirmations of our 1000 DASH transaction, we can now prepare the remote server.
@@ -156,7 +156,7 @@ We are done with the installation files, so those can be removed.
 ## 7. Create `masternode.conf` file on your *local* machine
 
 1. Obtain data for `masternode.conf`
-  1. Open Dash-Qt
+  1. Open DashCore
   2. From the menu: Tools > Debug Console, then type the command:
 
     ```sh
@@ -180,7 +180,7 @@ We are done with the installation files, so those can be removed.
   * You will need a separate line for each masternode in `masternode.conf`
   * You may add as many masternodes to the same wallet and `masternode.conf` as you wish
   
-3. Close Dash-Qt
+3. Close DashCore
 
 ## 8. Install & test Sentinel
 1. Install prerequisites
@@ -218,9 +218,9 @@ If you see "dashd not synced with network! Awaiting full sync before running Sen
 ```
 
 ## 9. Start your masternode(s)
-1. Launch Dash-Qt
+1. Launch DashCore
   * This will now use the new settings from `dash.conf` and `masternode.conf`
-2. Open a Dash-Qt console session (Tools > Debug console)
+2. Open a DashCore console session (Tools > Debug console)
 3. Enter the following to activate your remote masternode
 
     ```sh
