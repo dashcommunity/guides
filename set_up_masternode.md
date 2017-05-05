@@ -242,12 +242,11 @@ If you see "dashd not synced with network! Awaiting full sync before running Sen
     ```sh
     Local$ ssh <login-user>@<ip.add.re.ss> 
     VPS$ ./dash-cli masternode debug # look for success message
-    VPS$ ./dash-cli masternode list full | grep <your MN IP address>
+    VPS$ ./dash-cli masternode list full | grep <your MN IP address> # look for "ENABLED" in the returned text
     ```
-  * If it doesn't show enabled, don't panic; the blockchain must fully download on the remote server before it becomes active
-  * You can check the status of the blockchain download by running the "getinfo" command repeatedly until it is fully caught up to the current number of blocks
-  * Once it is caught up, give it a minute and try again to see if it shows as "ENABLED"
-  * If your address comes up with "ENABLED" in the string, you've done everything correct then your masternode is set up correctly.
+  * If it doesn't show "ENABLED", don't panic; the blockchain must fully download on the remote server before it becomes active
+  * You can check the status of the blockchain download by running `./dash-cli getinfo` until it's caught up to the current number of blocks
+  * Once caught up, give it a minute and try again to see if it shows as "ENABLED"
 
 If you still don't see "ENABLED" check your settings from your local DashCore wallet
 ```sh
