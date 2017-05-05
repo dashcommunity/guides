@@ -156,12 +156,13 @@ We are done with the installation files, so those can be removed.
 ## 7. Create `masternode.conf` file on your *local* machine
 
 1. Obtain data for `masternode.conf`
-  1. Open DashCore
-  2. From the menu: Tools > Debug Console, then type the command:
+  
+  * Open DashCore
+  * From the menu: Tools > Debug Console, then type the command:
 
-    ```sh
-    Dash$ masternode outputs # values are listed as "hash":"index", copy them into your notes
-    ```
+  ```sh
+  Dash$ masternode outputs # values are listed as "hash":"index", copy them into your notes
+  ```
     
 2. Create `masternode.conf`
 
