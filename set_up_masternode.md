@@ -142,19 +142,18 @@ While we are waiting for the needed 6 confirmations of our 1000 DASH transaction
   * You don't need to wait for the blocks to completely sync; we may move on to the next step
 
 ## 6. Remove unnecessary files & folders from your VPS
-We are done with the installation files and folders, so those can be removed.
+We are done with the installation files, so those can be removed.
 
 1. Remove files as follows:
 
   ```sh
   VPS$ cd ~
   VPS$ ls
-  VPS$ rm -rf dash-0.12.0
-  VPS$ rm dash-0.12.0.58-linux64.tar.gz
+  VPS$ rm dashcore-0.12.1.5-linux64.tar.gz
   VPS$ exit # repeat to exit all the way out of VPS (into your local machine)
   ```
 
-## 7. Create `masternode.conf` files on your *local* machine
+## 7. Create `masternode.conf` file on your *local* machine
 
 1. Obtain data for `masternode.conf`
   1. Open Dash-Qt
@@ -180,16 +179,52 @@ We are done with the installation files and folders, so those can be removed.
   ```
   * You will need a separate line for each masternode in `masternode.conf`
   * You may add as many masternodes to the same wallet and `masternode.conf` as you wish
+  
 3. Close Dash-Qt
 
-## 8. Start your masternode(s)
+## 8. Install & test Sentinel
+1. Install prerequisites
+```sh
+VPS$ sudo apt-get update
+VPS$ sudo apt-get install -y git python-virtualenv
+```
+
+2. Install Sentinel
+```sh
+VPS$ cd .dashcore
+VPS$ git clone https://github.com/dashpay/sentinel.git
+VPS$ cd sentinel
+VPS$ virtualenv venv # create virtual python environment.  If this command fails try `sudo apt-get install -y virtualenv'
+```
+
+3. Install dependencies, test setup
+```sh
+VPS$ venv/bin/pip install -r requirements.txt
+VPS$ venv/bin/python bin/sentinel.py
+```
+
+If you see "dashd not synced with network! Awaiting full sync before running Sentinel", run `dash-cli mnsync status` until you see:
+```sh
+{
+"AssetID": 999,
+"AssetName": "MASTERNODE_SYNC_FINISHED",
+"Attempt": 0,
+"IsBlockchainSynced": true,
+"IsMasternodeListSynced": true,
+"IsWinnersListSynced": true,
+"IsSynced": true,
+"IsFailed": false
+}
+```
+
+## 9. Start your masternode(s)
 1. Launch Dash-Qt
   * This will now use the new settings from `dash.conf` and `masternode.conf`
 2. Open a Dash-Qt console session (Tools > Debug console)
 3. Enter the following to activate your remote masternode
 
     ```sh
-    Dash$ walletpassphrase <your-wallet-passphrase> 60 # this is the same password you created to encrypt your wallet
+    Dash$ walletpassphrase <your-wallet-passphrase> 120 # alternatively, Tools > Unlock wallet.  Password is the same you created to encrypt your wallet, also used when spending Dash.
     Dash$ masternode start-alias <alias-of-masternode-you-want-to-start>
     ```
   * You should get a response similar to:
@@ -205,10 +240,42 @@ We are done with the installation files and folders, so those can be removed.
 4. Check your work by going back to your remote server and enter the following
 
     ```sh
-    Local$ ssh <login-user>@<ip.add.re.ss>  
+    Local$ ssh <login-user>@<ip.add.re.ss> 
+    VPS$ ./dash-cli masternode debug # look for success message
     VPS$ ./dash-cli masternode list full | grep <your MN IP address>
     ```
   * If it doesn't show enabled, don't panic; the blockchain must fully download on the remote server before it becomes active
   * You can check the status of the blockchain download by running the "getinfo" command repeatedly until it is fully caught up to the current number of blocks
   * Once it is caught up, give it a minute and try again to see if it shows as "ENABLED"
-  * If your address comes up with "ENABLED" in the string, you've done everything correct.  Congratulations, your masternode is set up correctly, you are done!
+  * If your address comes up with "ENABLED" in the string, you've done everything correct then your masternode is set up correctly.
+
+If you still don't see "ENABLED" check your settings from your local DashCore wallet
+```sh
+Dash$ masternode list-conf # to see your masternode alias(es)
+Dash$ walletpassphrase <yourwalletpassphrase> 120
+Dash$ masternode start-alias <alias>
+Dash$ walletlock # to lock your wallet back up
+```
+
+## 10.  Create Cron Job
+Your masternode is set up and sentinel is installed.  Now you just need to configure Sentinel to periodically run to keep your masternode alive, proving to the network that you are performing your job as required.
+1. Test Sentinel again
+```sh
+VPS$ cd .dashcore/sentinel
+VPS$ venv/bin/python bin/sentinel.py # should return nothing but silence.  This is how you know it's working.
+```
+2. Create Cron job
+```sh
+VPS$ crontab -e
+# add the following to the end of this file:
+  < # start of text to add
+    * * * * * cd /home/YOURUSERNAME/.dashcore/sentinel && ./venv/bin/python bin/sentinel.py  2>&1 >> sentinel-cron.log
+  > # end of text to add, exit with ctrl+x, save the file
+```
+3. Final Test
+```sh
+Local$ ssh <login-user>@<ip.add.re.ss> 
+VPS$ ./dash-cli masternode debug # look for success message
+VPS$ ./dash-cli masternode list full | grep <your MN IP address>
+```
+If you see `ENABLED` still then you're done.  Celebrate!
